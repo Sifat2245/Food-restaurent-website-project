@@ -85,6 +85,7 @@ margin-bottom: 32px;
 #card-box{
     width: 1320px;
     margin: 167px auto;
+    
 }
 
 #card-box .title{
@@ -106,10 +107,11 @@ line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.6;
+padding-bottom:15px ;
 }
 
 .card-container{
-    margin-top: 48px;
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -144,7 +146,88 @@ opacity: 0.6;
 .container{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 70px;
     justify-content: center;
     align-items: center;
+}
+.hw{
+    height: 326px;
+    width: 1320px;
+   
+}
+#social{
+    background: linear-gradient(0, rgb(255, 255, 255, 0.85) ,rgba(255, 255, 255, 0.85) ),url("../assets/social-bg.png");
+    height: 671px;
+    width: 1932px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+#social .title1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 25px;
+}
+
+#social .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-bottom: 48px;
+}
+
+#social  .title2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 30px 10px 30px 10px;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.336);
+    border-top: 1px solid rgba(16, 16, 16, 0.336);
+}
+
+#social .img1{
+    width: 32px;
+    height: 32px;
+    padding: 15px;
+
+}
+#social .img2{
+    width: 32px;
+    height: 32px;
+    padding: 15px;
+}
+#social .img3{
+    width: 32px;
+    height: 32px;
+    padding: 15px;
+}
+#social .img4{
+    width: 32px;
+    height: 32px;
+    padding: 15px;
 }
