@@ -84,10 +84,7 @@ margin-bottom: 32px;
 
 #card-box{
     width: 1320px;
-    margin: 80px auto;
-}
-#card-box .info{
-    
+    margin: 167px auto;
 }
 
 #card-box .title{
@@ -117,6 +114,7 @@ opacity: 0.6;
     justify-content: space-between;
     gap: 20px;
     font-family: Work Sans;
+    
 }
 
 .card{
@@ -141,4 +139,12 @@ opacity: 0.6;
     border-radius: 8px;
 
     background: rgba(82, 195, 3, 0.15);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
 }
